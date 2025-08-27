@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/login.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="pop" id="pop">
+      <h2 id="msg"></h2>
+    </div>
+    <div class="container">
+      <form>
+        <h1>IDENTIFIEZ-VOUS !!!!</h1>
+        <div class="box pren">
+          <label for="prenom">Prenom</label>
+        </div>
+        <div>
+          <input type="text" name="prenom" id="prenom" />
+        </div>
+        <div class="box mdp">
+          <label for="mdp">Mots de passe</label>
+        </div>
+        <div>
+          <input type="password" name="mdp" id="mdp" />
+        </div>
+        <div class="box">
+          <input
+            id="btn"
+            type="submit"
+            name="btnValisder"
+            class="btn"
+            value="VALIDER"
+          />
+        </div>
+      </form>
+    </div>
+    <h1 id="res"></h1>
+    <script src="../script/login.js"></script>
+  </body>
+</html>

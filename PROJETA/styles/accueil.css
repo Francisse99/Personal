@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../image/back.jpg");
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-position: -2000px;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(255, 0, 102);
+  filter: blur(0.5);
+  backdrop-filter: 0.4;
+  margin-bottom: 10px;
+  height: 150px;
+  background-image: url("../image/z.png");
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+header h1 {
+  text-align: center;
+  margin: auto;
+}
+
+article {
+  margin: 20px;
+  line-height: 30px;
+  text-indent: 30px;
+  font-size: 22px;
+  background-image: url("../image/2.png");
+  background-size: 170px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+main {
+  width: 95%;
+  margin: auto;
+  background-color: rgba(242, 242, 242, 0.1);
+  border-radius: 150px 150px 0 0;
+}
+main a {
+  width: 100%;
+  margin: auto;
+}
+.photo {
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 150px 50px 150px 0;
+}
+main div {
+  margin-left: 2%;
+  font-size: 20px;
+  color: rgb(255, 0, 102);
+  line-height: 23px;
+  padding: 10px;
+}
+.video {
+  display: none;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+}
+.reel {
+  width: 80%;
+  margin: auto;
+  border: 12px solid rgba(255, 255, 255, 0.5);
+}
+.btn1Container {
+  width: 100%;
+  text-align: center;
+}
+.btn1 {
+  width: 40%;
+  margin: 10px;
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(255, 102, 102);
+  cursor: pointer;
+  transition: padding 1s;
+}
+.confession {
+  width: 100%;
+  background-image: url("../image/3.png"), url("../image/4.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 150px, 150px;
+  background-position: left top, right bottom;
+}
+.confession h2 {
+  margin-left: 20px;
+  color: red;
+  font-size: 22px;
+}
+.confession h2 span {
+  color: rgb(255, 0, 128);
+}
+.confession div {
+  background-color: rgba(242, 242, 242, 0.5);
+  margin: 20px;
+  line-height: 25px;
+  text-indent: 40px;
+  font-size: 20px;
+  border: 5px solid #ffff;
+  padding: 20px;
+}
+.dmdvideo {
+  width: 95%;
+  margin: 0 2.5% 10px;
+}
+.vid {
+  width: 80%;
+}
+.nav ul {
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+}
+.nav ul li {
+  width: 80%;
+  padding: 10px;
+  border-radius: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: rgba(128, 0, 51, 0.8);
+  cursor: pointer;
+}
+.nav ul li:hover {
+  background-color: rgba(255, 0, 102, 0.5);
+}
+.nav ul li a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+.cdmd {
+  width: 100%;
+  display: none;
+}
+.cdmd div {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  background-image: url("../image/m.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  /* transition: display 2s; */
+}
+.cdmd div h3 {
+  padding: 10px;
+  background-color: rgba(255, 0, 102, 0.5);
+}
+.dmd {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: none;
+  color: pink;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 0, 102);
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  background-image: url("../image/y.png");
+  background-size: 150px;
+  background-position: 150px top;
+  background-repeat: no-repeat;
+}
+footer p{
+    font-size: 25px;
+}
+.contact li {
+  display: inline;
+}
+.contact ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact ul li {
+  flex-basis: 20%;
+  justify-content: center;
+  align-items: center;
+}
+.social {
+  width: 60px;
+}
+@media (max-width: 750px) {
+  .sous-titre {
+    width: 80%;
+  }
+}
+@media (max-width: 300px) {
+  .sous-titre {
+    width: 100%;
+  }
+}
